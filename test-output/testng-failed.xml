@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test name="BrowserTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="qa.consulting.com.AutomatedTesting.AutomationPracticeTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testOverlay"/>
+          <include name="tearDown"/>
+          <include name="driver"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- qa.consulting.com.AutomatedTesting.AutomationPracticeTest -->
+    </classes>
+  </test> <!-- BrowserTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21296" started-at="2017-12-01T12:32:43Z" finished-at="2017-12-01T12:33:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21296" started-at="2017-12-01T12:32:43Z" finished-at="2017-12-01T12:33:04Z">
+      <class name="qa.consulting.com.AutomatedTesting.AutomationPracticeTest">
+        <test-method status="PASS" signature="driver(java.lang.String)[pri:0, instance:qa.consulting.com.AutomatedTesting.AutomationPracticeTest@7d9d1a19]" name="driver" is-config="true" duration-ms="2785" started-at="2017-12-01T12:32:43Z" finished-at="2017-12-01T12:32:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:qa.consulting.com.AutomatedTesting.AutomationPracticeTest@7d9d1a19]" name="init" is-config="true" duration-ms="56" started-at="2017-12-01T12:32:45Z" finished-at="2017-12-01T12:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:qa.consulting.com.AutomatedTesting.AutomationPracticeTest@7d9d1a19]" name="logIn" duration-ms="12656" started-at="2017-12-01T12:32:45Z" finished-at="2017-12-01T12:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="testOverlay()[pri:0, instance:qa.consulting.com.AutomatedTesting.AutomationPracticeTest@7d9d1a19]" name="testOverlay" duration-ms="4933" started-at="2017-12-01T12:32:58Z" finished-at="2017-12-01T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverlay -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:qa.consulting.com.AutomatedTesting.AutomationPracticeTest@7d9d1a19]" name="cleanUp" is-config="true" duration-ms="196" started-at="2017-12-01T12:33:03Z" finished-at="2017-12-01T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qa.consulting.com.AutomatedTesting.AutomationPracticeTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="657" started-at="2017-12-01T12:33:03Z" finished-at="2017-12-01T12:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.consulting.com.AutomatedTesting.AutomationPracticeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
